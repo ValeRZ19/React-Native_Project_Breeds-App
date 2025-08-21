@@ -25,17 +25,31 @@ To start the project, you have two options:
 
 ## Features
 
-- 🔐 **Login system** to access the app  
+- 🔐 **Login system** to access the app
+
+ ##### Login Credentials
+ 
+To log in, use one of these credentials:
+
+1. **Username:** `user`  
+   **Password:** `123`
+
+2. **Username:** `ana`  
+   **Password:** `123`
+
+3. **Username:** `user2`  
+   **Password:** `123`
+     
    <img src="./assets//images/Login_Screenshot.jpeg" alt="Login Screenshot" width="300" alt="Login Screenshot" />
 
-- 📋 **Dog breeds list** powered by **The Dog API**  
+- 📋 **Dog breeds list** powered by **The Dog API**
+  
    <img src="./assets//images/Dogs-breeds-list_Screenshot.jpeg" alt="Breeds Screenshot" width="300" alt="Breeds Screenshot" />
 
 
 - 🎮 **Quiz game** with two difficulty levels:  
   - **Easy Mode** → Select the correct breed from multiple options.  
   - **Hard Mode** → Type the breed name from memory and try to get **as many correct answers as possible** — more challenging! 
-
 
    <p align="center">
       <img src="./assets/images/Easy_mode.jpeg" alt="Easy Mode" width="45%" alt="Easy mode screenshot"/>
