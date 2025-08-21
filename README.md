@@ -23,6 +23,21 @@ To start the project, you have two options:
    npx expo start --localhost
    ```
 
+
+## 📲 Download APK
+
+You can also try the app directly by downloading the APK:
+
+<p align="center">
+  <img src="./assets/images/qr-apk.png" alt="QR APK Download" width="200" />
+</p>
+
+ **Requirements**  
+- Android 8.0 (Oreo) or higher  
+- Internet connection (to fetch dog breeds from the API)  
+   
+
+
 ## Features
 
 - 🔐 **Login system** to access the app
