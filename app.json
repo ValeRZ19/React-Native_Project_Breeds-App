@@ -4,7 +4,7 @@
     "slug": "Pawpedia",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/images/DogLogo_icon.jpg",
+    "icon": "./assets/images/dog-icon.png",
     "scheme": "breedapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#DDE8EE"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.valerzu19.Pawpedia"
     },
     "web": {
       "bundler": "metro",
@@ -34,17 +35,26 @@
           "backgroundColor": "#DDE8EE"
         }
       ],
-     [ "expo-build-properties",{
-        "ios": {
-          "deploymentTarget": "15.1"
-        },
-        "android": {
-          "usesCleartextTraffic": true
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "15.1"
+          },
+          "android": {
+            "usesCleartextTraffic": true
+          }
         }
-     }]
+      ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a46e3e25-8cfe-4c4d-9f4c-0b4de315cfde"
+      }
     }
   }
 }
