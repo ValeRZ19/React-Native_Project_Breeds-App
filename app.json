@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Pawpedia",
+    "slug": "Pawpedia",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/DogLogo_icon.jpg",
+    "scheme": "breedapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#DDE8EE"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/DogLogo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash_icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#DDE8EE"
+        }
+      ],
+     [ "expo-build-properties",{
+        "ios": {
+          "deploymentTarget": "15.1"
+        },
+        "android": {
+          "usesCleartextTraffic": true
+        }
+     }]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
