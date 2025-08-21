@@ -29,7 +29,7 @@ To start the project, you have two options:
 You can also try the app directly by downloading the APK:
 
 <p align="center">
-  <img src="./assets/images/qr-apk.png" alt="QR APK Download" width="200" />
+  <img src="./assets/images/APK_QR.png" alt="QR APK Download" width="200" />
 </p>
 
  **Requirements**  
