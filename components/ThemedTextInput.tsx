@@ -41,7 +41,7 @@ const ThemedTextInput = ({icon, rightIcon, onPress, isCorrectAnswer=null, ...res
         onFocus={()=> setIsActive(true)}
         onBlur={()=> setIsActive(false)}
         {...rest}
-        className='flex-1'
+        className='flex-1 text-initial_icons'
       />
 
       {rightIcon && ( 
