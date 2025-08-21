@@ -4,6 +4,7 @@ import useGame from "@/hooks/useGame";
 import { usePortrait } from "@/hooks/usePortrait";
 import CustomButton from "@/components/CustomButton";
 import ThemedTextInput from "./ThemedTextInput";
+import { colors } from "@/constants/Colors";
 
 interface GameContentProps {
   isEasyMode: boolean;
@@ -144,6 +145,7 @@ const GameContent = ({ isEasyMode }: GameContentProps) => {
         >
           <ThemedTextInput
             placeholder="Type your answer here..."
+            placeholderTextColor={colors.initial_icons}
             value={answerInput}
             onChangeText={setAnswerInput}
             returnKeyLabel="done"

@@ -9,6 +9,7 @@ import { useAuthContext } from "@/context/AuthContext";
 import ThemedTextInput from "@/components/ThemedTextInput";
 import CustomButton from "@/components/CustomButton";
 import FontAwesome  from "@expo/vector-icons/FontAwesome6";
+import { colors } from "@/constants/Colors";
 
 interface Inputs {
   userName: string;
@@ -91,6 +92,7 @@ const LoginScreen = () => {
                     value={value}
                     onChangeText={(text) => onChange(text.trim())}
                     placeholder="Enter your username"
+                    placeholderTextColor={colors.initial_icons}
                     autoCapitalize="none"
                     icon="user"
                     returnKeyLabel="done"
@@ -114,6 +116,7 @@ const LoginScreen = () => {
                     value={value}
                     onChangeText={(text) => onChange(text.trim())}
                     placeholder="Password"
+                    placeholderTextColor={colors.initial_icons}
                     autoCapitalize="none"
                     secureTextEntry={!isVisible}
                     icon="lock"

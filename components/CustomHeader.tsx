@@ -6,6 +6,7 @@ import FontAwesome from '@expo/vector-icons/FontAwesome6';
 import { useSearchContext } from '@/context/SearchContext';
 import { usePortrait } from '@/hooks/usePortrait';
 import ThemedTextInput from './ThemedTextInput';
+import { colors } from '@/constants/Colors';
 
 interface CustomHeaderProps {
   label:string;
@@ -43,6 +44,7 @@ const CustomHeader = ({label, searchInput=false}:CustomHeaderProps) => {
           <View className={portraitMode? 'px-14 mb-4 ':'px-36 mb-4 '}>
             <ThemedTextInput 
               placeholder='Search'
+              placeholderTextColor={colors.initial_icons}
               rightIcon={'magnifying-glass'}
               onChangeText={setSearchBreed}
             />
