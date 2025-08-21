@@ -26,10 +26,10 @@ To start the project, you have two options:
 ## Features
 
 - 🔐 **Login system** to access the app  
-   ![Login Screenshot](./assets//images/Login_Screenshot.jpeg)
+   <img src="./assets//images/Login_Screenshot.jpeg" alt="Login Screenshot" width="300" alt="Login Screenshot" />
 
 - 📋 **Dog breeds list** powered by **The Dog API**  
-   ![Breeds Screenshot](./assets//images/Dogs-breeds-list_Screenshot.jpeg)
+   <img src="./assets//images/Dogs-breeds-list_Screenshot.jpeg" alt="Breeds Screenshot" width="300" alt="Breeds Screenshot" />
 
 
 - 🎮 **Quiz game** with two difficulty levels:  
@@ -38,9 +38,9 @@ To start the project, you have two options:
 
 
    <p align="center">
-      <img src="./assets/images/Easy_mode.jpeg" alt="Easy Mode" width="45%" />
+      <img src="./assets/images/Easy_mode.jpeg" alt="Easy Mode" width="45%" alt="Easy mode screenshot"/>
       &nbsp;&nbsp;&nbsp;
-      <img src="./assets/images/Hard_mode.jpeg" alt="Hard Mode" width="45%" />
+      <img src="./assets/images/Hard_mode.jpeg" alt="Hard Mode" width="45%" alt="Hard mode screenshot"" />
    </p>
 
 ## API Reference
